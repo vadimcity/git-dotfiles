@@ -1,0 +1,6 @@
+[window]
+padding = { x = 22, y = 22 }
+
+[env]
+WINIT_X11_SCALE_FACTOR = "0.8"
+
