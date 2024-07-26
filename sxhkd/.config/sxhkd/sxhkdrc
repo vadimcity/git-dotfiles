@@ -9,6 +9,9 @@ XF86MonBrightness{Up,Down}
 super + ctrl + shift + L
 	dm-tool lock
 
+# open password manager
+super + o
+	passmenu
 
 # make sxhkd reload its configuration files:
 #super + Escape
