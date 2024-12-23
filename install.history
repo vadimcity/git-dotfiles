@@ -1,38 +1,38 @@
 #!/bin/bash
-yay acpi
-yay arandr
-yay awesome-terminal-fonts
-yay dex
-yay dmenu
-yay dunst
-yay feh
-yay jq
-yay mpv
-yay nerdfetch
-yay network-manager-applet
-yay rofi
-yay xed
-yay xorg-xbacklight
-yay xorg-xdpyinfo
-yay aur/juno-theme-git
-yay blueman
-yay brave-bin
-yay code
-yay devbox
-yay dex
-yay juno
-yay juno-theme-git
-yay keyd
-yay lazygit
-yay nerdfonts
-yay node
-yay oh-my-zsh-git
-yay ripgrep
-yay ripgrep-all
-yay spacevim
-yay sxhkd
-yay terraform 
-yay vim
-yay zsh
-yay code
-yay neovim
+sudo pacman -S acpi
+sudo pacman -S arandr
+sudo pacman -S awesome-terminal-fonts
+sudo pacman -S dex
+sudo pacman -S dmenu
+sudo pacman -S dunst
+sudo pacman -S feh
+sudo pacman -S jq
+sudo pacman -S mpv
+sudo pacman -S nerdfetch
+sudo pacman -S network-manager-applet
+sudo pacman -S rofi
+sudo pacman -S xed
+sudo pacman -S xorg-xbacklight
+sudo pacman -S xorg-xdpyinfo
+sudo pacman -S aur/juno-theme-git
+sudo pacman -S blueman
+sudo pacman -S brave-bin
+sudo pacman -S code
+sudo pacman -S devbox
+sudo pacman -S dex
+sudo pacman -S juno
+sudo pacman -S juno-theme-git
+sudo pacman -S keyd
+sudo pacman -S lazygit
+sudo pacman -S nerdfonts
+sudo pacman -S node
+sudo pacman -S oh-my-zsh-git
+sudo pacman -S ripgrep
+sudo pacman -S ripgrep-all
+sudo pacman -S spacevim
+sudo pacman -S sxhkd
+sudo pacman -S terraform 
+sudo pacman -S vim
+sudo pacman -S zsh
+sudo pacman -S code
+sudo pacman -S neovim
