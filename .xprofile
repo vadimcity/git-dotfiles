@@ -11,7 +11,6 @@ nm-applet &
 blueman-applet &
 xset r rate 300 40 &
 xsetwacom set "Wacom One by Wacom S Pen stylus" Rotate half &
-setxkbmap -option caps:swapescape &
 mate-notificaion-daemon &
 mate-power-manager &
 

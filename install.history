@@ -1,38 +1,55 @@
-#!/bin/bash
-sudo pacman -S acpi
-sudo pacman -S arandr
-sudo pacman -S awesome-terminal-fonts
-sudo pacman -S dex
-sudo pacman -S dmenu
-sudo pacman -S dunst
-sudo pacman -S feh
-sudo pacman -S jq
-sudo pacman -S mpv
-sudo pacman -S nerdfetch
-sudo pacman -S network-manager-applet
-sudo pacman -S rofi
-sudo pacman -S xed
-sudo pacman -S xorg-xbacklight
-sudo pacman -S xorg-xdpyinfo
-sudo pacman -S aur/juno-theme-git
-sudo pacman -S blueman
-sudo pacman -S brave-bin
-sudo pacman -S code
-sudo pacman -S devbox
-sudo pacman -S dex
-sudo pacman -S juno
-sudo pacman -S juno-theme-git
-sudo pacman -S keyd
-sudo pacman -S lazygit
-sudo pacman -S nerdfonts
-sudo pacman -S node
-sudo pacman -S oh-my-zsh-git
-sudo pacman -S ripgrep
-sudo pacman -S ripgrep-all
-sudo pacman -S spacevim
-sudo pacman -S sxhkd
-sudo pacman -S terraform 
-sudo pacman -S vim
-sudo pacman -S zsh
-sudo pacman -S code
-sudo pacman -S neovim
+acpi
+adobe-source-code-pro-fonts\n\n
+arandr
+awesome-terminal-fonts
+blueman
+bluetooth
+bluez
+bluez bluez-utils
+brave-bin
+code
+dash
+devbox
+dex
+dmenu
+dunst
+feh
+flatpak
+fluent-icon-theme
+fzf
+github
+gtk-engine-murrine
+jetbrains-mono
+jq
+juno
+juno-theme-git
+keyd
+lazygit
+mpv
+neovim
+nerd-font
+nerd-fonts
+nerdfetch
+nerdfonts
+network-manager-applet
+node
+oh-my-zsh-git
+ripgrep
+ripgrep-all
+rofi
+sxhkd
+terraform 
+timeshift
+ttf-3270-nerd
+xdg-open
+xed
+xorg-xbacklight
+xorg-xdpyinfo
+zsh
+zsh-syntax-highlighting
+imlib2
+libcurl
+libpng
+libx11
+libxt
+libxinerama
