@@ -11,16 +11,22 @@ static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_green[]       = "#66C88F";
+
+// Colors from kitty theme
+static const char col_gray1[]       = "#131313";  // background
+static const char col_gray2[]       = "#1f1f1f";  // window border
+static const char col_gray3[]       = "#d6dae4";  // foreground
+static const char col_gray4[]       = "#ffffff";  // bright foreground
+static const char col_green[]       = "#85c17e";  // selected window (kitty green)
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_green,  col_green  },
+	[SchemeSel]  = { col_gray4, col_green, col_green },
 };
+
+
+
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
@@ -62,7 +68,8 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-b", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_green, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+// static const char *termcmd[]  = { "kitty", NULL };
+static const char *termcmd[]  = { "gnome-terminal", NULL };
 
 #include "movestack.c"
 static Key keys[] = {
