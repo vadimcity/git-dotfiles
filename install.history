@@ -50,3 +50,4 @@ libpng
 libx11
 libxt
 libxinerama
+x11-ssh-askpass
