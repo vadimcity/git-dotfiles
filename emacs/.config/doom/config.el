@@ -75,3 +75,17 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+
+;; Org‑Roam configuration
+(use-package! org-roam
+  :custom
+  ;; Point Org‑Roam to the folder you just created
+  (org-roam-directory (file-truename "~/Documents/personal-assistant/org-notes/"))
+
+  ;; Optional: set the daily notes directory inside the same folder
+  (org-roam-dailies-directory "daily-notes/")   ; creates ~/Documents/personal-assistant/org-notes/
+  :config
+  (org-roam-setup))
+
+;; Make sure Org‑Agenda sees the directory
+(setq org-agenda-files (list org-roam-directory))
